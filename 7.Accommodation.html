@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Accommodation</title>
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" href="image/favicon.ico">
+
+  <style>
+    * {
+      color: black;
+      font-family: 'Times New Roman';
+    }
+
+    body {
+      background-color: #C1EFFF;
+    }
+
+    .navigation li {
+      float: right;
+    }
+
+    .navigation ul {
+      list-style-type: none;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 50px;
+      z-index: 1;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    li button {
+      background-color: #C1EFFF;
+      border-radius: 20px;
+      border-width: 0;
+      margin: 10px;
+    }
+
+    li button:hover {
+      opacity: 0.9;
+      background-color: black;
+      transition-delay: 0.1s;
+    }
+
+    li a:hover {
+      color: #C1EFFF;
+      transition-delay: 0.1s;
+    }
+
+    #nav-home {
+      float: left;
+    }
+
+    #nav-home a {
+      font-weight: bold;
+      font-size: 30px;
+      color: powderblue;
+    }
+
+    .accommodation {
+      color: white;
+    }
+
+    .first-High-Accommodation {
+      margin: 10px 30px 0;
+      background-image: url(https://www.estherea.nl/upload/heading/hotel-estherea-1600x675_5.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 10px;
+    }
+
+    .second-High-Accommodation {
+      margin: 10px 30px 0;
+      padding-bottom: 10px;
+      background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/290065399.jpg?k=f8d7854e2260fc651e5a90583c213093a2ca4eec45dfa536e154ca5f16fc24ed&o=&hp=1);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .Middle-Accommodation {
+      margin: 10px 30px 0;
+      background-image: url(https://media-cdn.holidaycheck.com/w_768,h_432,c_fill,q_auto,f_auto/ugc/images/efe75b97-e9ac-3414-bcb9-b83fc055b652);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 10px;
+    }
+
+    .second-Middle-Accommodation {
+      margin: 10px 30px 0;
+      padding-bottom: 10px;
+      background-image: url(https://files.structurae.net/files/photos/5256/2018-07-18/dsc04042.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .Budget-Accommodation {
+      margin: 10px 30px 0;
+      background-image: url(https://www.turnerandtownsend.com/media/1800/generator-hostel.jpg?anchor=center&mode=crop&width=600&rnd=131212724400000000);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 10px;
+    }
+
+    .firstHeader,
+    .secondHeader,
+    .thirdHeader {
+      margin-top: 0px;
+      margin-left: 30px;
+      position: relative;
+      top: 70px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      padding-left: 12px;
+    }
+
+    h3 {
+      float: right;
+      margin-right: 30px;
+    }
+
+    .description {
+      font-size: 1.1vw;
+      margin: 0 20px 0;
+      background-color: #C1EFFF;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    img {
+      border-style: solid;
+      border-width: 5px;
+      border-color: #C1EFFF;
+    }
+
+    img:hover {
+      border-color: white;
+      border-width: 8px;
+    }
+
+    center {
+      margin-top: 70px;
+    }
+
+    hr {
+      border-top: 3px solid black;
+      border-bottom: black;
+      width: 100%;
+    }
+
+    .BackToTopButton {
+      background-color: powderblue;
+      height: 60px;
+      width: 100px;
+    }
+
+    .BackToTopButton:hover {
+      background-color: black;
+      color: powderblue;
+      opacity: 0.9;
+    }
+
+    .navigation-bar {
+      top: 50px;
+    }
+
+    .header {
+      background-image: url(https://www.re-thinkingthefuture.com/wp-content/uploads/2021/02/A3315-Dutch-Architecture-Image-9_Narrow-Canal-Houses-Amsterdam_www.tourismconcern.org_.uk_.jpg);
+      height: 100vh;
+    }
+
+    .header h1 {
+      position: absolute;
+      font-size: 100px;
+      color: white;
+      font-weight: bold;
+      margin: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header" id="top">
+    <h1>The <br> Accommodation <br> In <br> Netherland </h1>
+  </div>
+  <nav class="navigation">
+    <ul>
+      <li><button><a href="#thirdSection">Budget Accommodation</a></button></li>
+      <li><button><a href="#secondSection">Mid-range Accommodation</a></button></li>
+      <li><button><a href="#firstSection">High-range Accommodation</a></button></li>
+      <li id="nav-home"><a href="./index.html">Netherlands <span
+            style="color: white; font-size: 15px;">.accommodation</span></a></li>
+    </ul>
+  </nav>
+  <div class="navigation-bar">
+    <a class="nav-item" href='index.html'>Home</a>
+    <a class="nav-item" href='2.Attraction.html'>Attraction</a>
+    <a class="nav-item" href='3.Activities.html'>Activities</a>
+    <a class="nav-item" href='4.fb.html'>Food & Beverages</a>
+    <a class="nav-item" href='5.Shopping.html'>Shopping</a>
+    <a class="nav-item" href='6.Transportation.html'>Transportation</a>
+    <a class="nav-item" href='7.Accommodation.html'>Accommodation</a>
+    <a class="nav-item" href='8.HealthandSafety.html'>Health & Safety</a>
+    <a class="nav-item" href='credit.html'>Credit</a>
+  </div>
+
+  <section id=firstSection style="margin-top: 0px">
+    <div class="firstHeader">
+      <h1>High-range Accommodation</h1>
+      <h2>1. Hotel Estheréa ⭐⭐⭐⭐⭐</h2>
+    </div>
+    <div class="first-High-Accommodation">
+      <center>
+        <table cellspacing="10px">
+          <tr>
+            <td rowspan="2"><img src="./image/high range hotel 3.jpg" alt="hotelEssteria" width="250px" height="430px">
+            </td>
+            <td><img src="./image/high range hotel 2.jpg" width="350px" height="266px"></td>
+          </tr>
+          <tr>
+            <td><img src="./image/high range hotel.jpg" alt="hotelEssteria" width="250px" height="150px"></td>
+          </tr>
+        </table>
+      </center>
+      <p class="description">Hotel Estheréa is set along the Singel canal in the center of Amsterdam, only 300 m from
+        Dam
+        Square. This hotel is in a quiet area and benefits from classically-styled decor with wooden paneling. Free WiFi
+        access is available.<br>
+        <br>Each of the stylish rooms are romantically decorated and have a private bathroom. Some rooms have a canal
+        view.<br>
+        <br>Breakfast at the hotel features an extensive range of choices including bread, toppings, juices and
+        fresh
+        fruit. There are also warm dishes including scrambled eggs, boiled or fried eggs, sausages and bacon.<br>
+        <br>The hotel serves coffee, tea or hot chocolate free of charge in the lounge with canal view. Furthermore, you
+        can make free use of the wired internet in the lobby,visit the small library and get coloring books for
+        children.<br>
+        <br>Hotel Estheréa is located in the heart of the city center within walking distance of museums, the main
+        shopping area and night life. You will find plenty of cafés and restaurants in the area.<br>
+        <br>This is our guests' favorite part of Amsterdam, according to independent reviews.<br>
+        <br>Solo travelers in particular like the location – they rated it 9.6 for a one-person stay.
+      </p>
+    </div>
+    <h3><strong>Total: MYR 2,161 per night</strong></h3>
+    <div class="firstHeader">
+      <h2>2. INNSiDE by Meliá Amsterdam ⭐⭐⭐⭐</h2>
+    </div>
+    <div class="second-High-Accommodation">
+      <center>
+        <table cellspacing="10px">
+          <tr>
+            <td rowspan="2"><img src="./image/High range hotel 4.jpg" alt="INNSiDE" width="300px" height="250px">
+            </td>
+            <td><img src="./image/High range hotel 5.jpg" width="350px" height="266px"></td>
+            <td><img src="./image/high range hotel 7.jpg" width="350px" height="266px"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="./image/high range hotel 6.jpg" alt="hotelEssteria" width="550px" height="350px">
+            </td>
+          </tr>
+        </table>
+      </center>
+      <p class="description">Located in the heart of Amsterdam at the business district of Zuidas, INNSiDE by Meliá
+        Amsterdam offers accommodations with free WiFi. Guests can access onsite fitness centre and enjoy cycling in and
+        around the city.<br>
+        <br>
+        All rooms are equipped with flat-screen TV with Netflix subscription, air conditioner, tea/coffee maker and
+        private bathroom with shower and free toiletries. Breakfast can be ordered in the room<br>
+        <br>
+        Guests can enjoy a variety of drinks in sky Bar El Cielo located on the 19th floor, offering panoramic views
+        with modern Spanish cuisine and top-notch cocktails. La Tierra restaurant offers a La carte menu. Special diet
+        menus dishes can be prepared on request.<br>
+        <br>
+        INNSiDE by Meliá Amsterdam is 2 km from Van Gogh museum and 4 km from Anne Frank house. Amsterdam Zuid station
+        is 50 m away, 1 train stop from the airport and the nearest airport Schiphol Airport is just 8 km from the
+        hotel.<br>
+        <br>
+        Solo travellers particularly like the location — they rated it 8.6 for a one-person stay.
+      </p>
+    </div>
+    <h3><strong>Total: MYR 1,203 per night</strong></h3>
+  </section>
+  <br><br>
+  <hr>
+  <section id="secondSection">
+    <div class="secondHeader">
+      <h1>Middle-range accommodation</h1>
+      <h2>1. The Manor Amsterdam ⭐⭐⭐⭐</h2>
+    </div>
+    <div class="Middle-Accommodation">
+      <center>
+        <table cellspacing="10px">
+          <tr>
+            <td rowspan="2"><img src="./image/middle range hotel 1.jpg" alt="The Manor Amsterdam" width="400px"
+                height="250px"></td>
+            <td><img src="./image/middle range hotel 2.jpg" alt="The Manor Amsterdam" width="300px" height="150px">
+            </td>
+          </tr>
+          <tr>
+            <td><img src="./image/middle range hotel 3.jpg" alt="The Manor Amsterdam" width="300px" height="150px">
+            </td>
+          </tr>
+        </table>
+      </center>
+      <p class="description">
+        The Manor Amsterdam combines a monumental exterior with a trendy, Italian inspired interior. Guests
+        benefit from a community garden with a terrace, bike rental and free WiFi. Tram stop Wijttenbachstraat is in
+        front of the hotel with Amsterdam's historic city center only a 10-minute drive away.<br>
+        <br>The bright rooms at The Manor Amsterdam have a unique photo headboard. They also include a flat-screen TV,
+        free Wi-Fi and a bathroom with free toiletries. Some rooms boast high ceilings.<br>
+        <br>The lounge-bar menu features coffee during the day as well as cocktails in the evening.<br>
+        <br>The upcoming district Oost (East) is popular for its shops, cafés and restaurants. Guests can enjoy a
+        relaxing walk or swim at the Oosterpark, which is only a 2-minute walk from The Manor Amsterdam. Dappermarkt
+        is 500 m away.<br>
+        <br>Solo travelers in particular like the location – they rated it 8.5 for a one-person stay.
+      </p>
+    </div>
+    <h3><strong>Total: MYR 901 per night</strong></h3>
+    <div class="secondHeader">
+      <h2>2. NH Utrecht ⭐⭐⭐⭐</h2>
+    </div>
+    <div class="second-Middle-Accommodation">
+      <center>
+        <table cellspacing="10px">
+          <tr>
+            <td rowspan="2"><img src="./image/middle range hotel 4.jpg" alt=" NH Utrecht " width="400px" height="250px">
+            </td>
+            <td><img src="./image/middle range hotel 5.jpg" alt=" NH Utrecht " width="300px" height="150px">
+            </td>
+          </tr>
+          <tr>
+            <td><img src="./image/middle range hotel 6.jpg" alt=" NH Utrecht " width="300px" height="150px"></td>
+            <td rowspan="2"><img src="./image/middle range hotel 7.jpg" alt=" NH Utrecht " width="300px" height="200px">
+            </td>
+          </tr>
+        </table>
+      </center>
+      <p class="description">
+        NH Utrecht is a comfortable 4-star hotel situated near the centre of Utrecht, a 3-minute walk from Utrecht
+        Central Station. It features on-site dining, gym facilities and modern accommodation.<br>
+        <br>The guest rooms feature free Wi-Fi, a flat-screen TV and a seating corner. The private, spacious bathroom
+        has free soap and shampoo products and a bath tub. Other amenities include a tea/coffee maker and a work
+        desk.<br>
+        <br>A breakfast buffet is offered every morning in the restaurant. Restaurant El Rincon offers a French cuisine
+        à la carte menu for lunch and dinner. Bar La Esquina has a smaller menu with several light meals and drinks.<br>
+        <br>From NH Utrecht, the city centre is easy to reach on foot. The Beatrix Theatre is located directly next to
+        NH Utrecht, de Jaarbeurs is a few minutes away. Schiphol Airport is 30 minutes by train.<br>
+        <br>Solo travellers particularly like the location — they rated it 9.0 for a one-person stay.
+      </p>
+    </div>
+    <h3><strong>Total: MYR 795 per night</strong></h3>
+  </section>
+  <br><br>
+  <hr>
+
+  <section id="thirdSection">
+    <div class="thirdHeader">
+      <h1>Budget Accommodation</h1>
+      <h2>1. Generator Amsterdam ⭐⭐⭐⭐</h2>
+    </div>
+    <div class="Budget-Accommodation">
+      <center>
+        <table cellspacing="10px">
+          <tr>
+            <td rowspan="2"><img src="./image/budget accommodation 1.jpg" alt="Generator Amsterdam" width="400px"
+                height="250px"></td>
+            <td><img src="./image/budget accommodation 2.jpg" alt="Generator Amsterdam" width="350px" height="200px">
+            </td>
+          </tr>
+          <tr>
+            <td><img src="./image/budget accommodation 3.jpg" alt="Generator Amsterdam" width="350px" height="250px">
+            </td>
+            <td><img src="./image/budget accommodation 4.jpg" alt="Generator Amsterdam" width="300px" height="400px">
+            </td>
+          </tr>
+        </table>
+      </center>
+      <p class="description">Generator Amsterdam is a brand new designer hostel located in the east of Amsterdam near De
+        Pijp. It was a former zoological building and is based in Oosterpark. Free WiFi is available throughout the
+        property.<br>
+        <br>The former lecture hall has been transformed into a lounge and bar. There is also a dining space and a
+        secret bar in the former boiler room.<br>
+        <br>Each room features air conditioning, bed linen and a private bathroom with shower. The Generator Amsterdam
+        also includes premium rooms.<br>
+        <br>Breakfast is available every morning in the onsite café. As well as lunch and dinner. There is a 24-hour
+        front desk.<br>
+        <br>The hostel also offers bike hire. Rembrandtplein is 1 mi from Generator Amsterdam, while Heineken Experience
+        is 1.1 mi away. The nearest airport is Schiphol Airport, 7.5 mi from Generator Amsterdam.<br>
+        <br>Solo travelers in particular like the location – they rated it 8.1 for a one-person stay.
+      </p>
+    </div>
+    <h3><strong>Total: MYR 283 per night</strong></h3>
+  </section>
+  <br><br>
+  <center>
+    <a href="#top"><button class="BackToTopButton">Back to Top</button></a>
+  </center>
+  <br><br>
+</body>
+
+</html>

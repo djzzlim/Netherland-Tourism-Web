@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Beverage</title>
+    <link href='./image/favicon.ico' rel='icon'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <style>
+      
+      body{
+        margin:0px;
+        font-size:18px;
+        font-family:monospace;
+        background-color:#D8D8D8;
+      }
+
+      .intro{
+        position:absolute;
+        top:30%;
+        left:20%;
+        font-size:80px;
+        color:white;
+        font-family:cursive;
+        text-shadow: 5px 5px black;
+      }
+      
+      video{
+        width:100%;
+      }
+      
+      h1{
+        text-align:center;
+      }
+
+      img{
+        border-radius:10%;
+        box-shadow:10px 5px 5px grey;
+      }
+      
+      img:hover{
+        transform: scale(1.1);
+        transition: transform .2s;
+      }
+
+      .stew-top-container{
+        height:450px;
+      }
+      
+      .stew{
+        position:relative;
+        height:400px;
+      }
+      
+      .stew-jpg{
+        width:45%;
+        height:600px;
+        position:absolute;
+        bottom:170px;
+        left:20px;
+        border-radius: 10%;
+      }
+      
+      .stew-description{
+        width:40%;
+        position:relative;
+        left:55%;
+        top:100px;
+      }
+      
+      .stew-review{
+        margin-top: 10px;
+        line-height: 2;
+      }
+      
+      .stew-video-link{
+        text-decoration: none;
+        color:black;
+        padding: 15px 10px;
+        font-size: 15px;
+      }
+      
+      button{
+        border-radius: 10%;
+        border-style: inset;
+        height:50px;
+        width:100px;
+        left:100px;
+      }
+      
+      button:hover{
+        transform:scale(1.1);
+        transition: transform .3s;
+      }
+      
+      .stew-restaurant-review{
+        width:50%;
+        margin-left:48%;
+        font-size:12px;
+      }
+      
+      .stew-restaurant-title{
+        margin-top:30px;
+        text-align: center;
+        font-size:30px;
+      }
+      
+      .comment-left{
+        margin-top:30px;
+      }
+      
+      .comment-right{
+        margin-top:30px;
+        text-align:right
+      }
+      
+      .stew-restaurant-info{
+        text-align: center;
+        margin:60px 60px;      
+      }
+
+      .table-title{
+        font-size:20px;
+        font-family:cursive;
+        text-shadow: 2px 2px white;
+      }
+
+      table td{
+        padding:10px;
+        border-style:solid;
+      }
+      
+      .snert{
+        height:800px;
+        margin:200px 0px;
+      }
+      
+      .snert-jpg{
+        height:600px;
+        margin-left:66%;
+      }
+      
+      .snert-description{
+        width:50%;
+        position:relative;
+        bottom:600px;
+        left:30px;
+        line-height: 2;
+      }
+      
+      .moeders{
+        width:300px;
+        position:relative;
+        left:265px;
+        bottom:550px;
+      }
+      
+      .snert-restaurant-title{
+        font-size: 30px;
+        display:inline-block;
+        position:relative;
+        bottom:760px;
+        right:30px;
+      }
+
+      .snert-restaurant-info{
+        position: relative;
+        bottom: 70%;
+        left: 50px;
+        text-align: center;
+    }
+
+      .poffertjes1{
+        height:200px;
+        margin-bottom: 300px;
+      }
+      
+      .poffertjes2{
+        height:500px;
+        width:300px;
+      }
+      
+      .poffertjes3{
+        height:200px;
+      }
+      
+      .poffertjes-description{
+        width:40%;
+        position:relative;
+        left:50%;
+        bottom:500px;
+      }
+      
+      .poffertjes-history{
+        width:38%;
+        position:relative;
+        left:60%;
+        bottom:400px;
+      }
+      
+      .poffertjes-restaurant1{
+        width:50%;
+        position:relative;
+        bottom:50px;
+      }
+      
+      .poffertjes-restaurant2{
+        width: 50%;
+        position:relative;
+        left:50%;
+        bottom:225px;
+      }
+      
+      .line{
+        border-top-style: solid;
+      }
+
+      .poffertjes-restaurant-description{
+        border-style:none;
+        line-height:2;
+      }
+      
+      .poffertjes-restaurant-name{
+        text-decoration: none;
+        font-size:30px;
+        color: black;
+      }
+      
+      th:hover{
+        transform:scale(1.2);
+        transition: transform.2s;
+      }
+      
+      .jenever-pic{
+        height:300px;
+      }
+      
+      .jenever1-pic{
+        height:300px;
+        width:300px;
+        position:relative;
+        left:50%;
+      }
+      
+      .jenever-description{
+        width:40%;
+        position:relative;
+        left:380px;
+        bottom:250px;
+        margin-top:20px;
+      }
+
+      .jenever-restaurant-description{
+        width: 40%;
+        position: relative;
+        left: 55%;
+        bottom:300px;
+        line-height:3;
+      }
+
+      .jenever-restaurant-info{
+        margin:0px 0px 50px 10%;
+        text-align: center;
+      }
+
+    </style>
+</head>
+    <div class="header">
+        <video src="image/Intro1.mp4" autoplay muted loop>Video not supported by browser</video>
+        <h1 class="intro">FOOD & BEVERAGES</h1>
+    </div>
+    <div class="navigation-bar">
+        <a class="nav-item" href='index.html'>Home</a>
+        <a class="nav-item" href='2.Attraction.html'>Attraction</a>
+        <a class="nav-item" href='3.Activities.html'>Activities</a>
+        <a class="nav-item" href='4.fb.html'>Food & Beverages</a>
+        <a class="nav-item" href='5.Shopping.html'>Shopping</a>
+        <a class="nav-item" href='6.Transportation.html'>Transportation</a>
+        <a class="nav-item" href='7.Accommodation.html'>Accommodation</a>
+        <a class="nav-item" href='8.HealthandSafety.html'>Health & Safety</a>
+        <a class="nav-item" href='credit.html'>Credit</a>
+    </div>
+    <div class='stew-top-container'>
+      <div class="stew-description">
+        <h2>Stew (stampot)</h2>
+        <p class="stew-review">a very traditional meal, the stew contains meat, potatoes and other vegetables.  There are different kinds of stampot, but some favourites include sauerkraut with smoked sausage or fried bacon, or stewed potatoes with apples and bacon.</p>
+        <button><a class="stew-video-link" href="https://www.youtube.com/watch?v=MJuGC6yw0Gs" target="_blank">More Info</a></button>
+    </div> 
+    </div>
+    <div class="food-beverages-bottom-container">
+        <div class="stew">
+            <img class='stew-jpg' src="image/stew.jpg" alt="stampot-jpg"> 
+            <div class="stew-restaurant-review">
+                <h3 class="stew-restaurant-title">------De Blauwe Hollander------</h3>
+                <p class="comment-left">“Excellent Dutch Food in the Heart of Amsterdam”</p>
+                <p class="comment-right">“... (local) , the vegetarian stampott and the incredible home made apple pie”</p>
+                <p class="comment-left">“Salmon delicious, as the main dish.”</p>
+                <p class="comment-right">“I had the salmon with two large fillets - more than double a normal portion.”</p>
+            </div>
+            <table class='stew-restaurant-info'>
+              <tr>
+                <td class='table-title'>Phone</td>
+                <td class='table-title'>Address</td>
+                <td class='table-title'>Mail</td>
+              </tr>
+              <tr>
+                <td>020-6270521</td>
+                <td>Restaurant De Blauwe Hollander Leidsekruisstraat 28 1017 RJ Amsterdam</td>
+                <td>Info@deblauwehollander.nl</td>
+              </tr>
+            </table>
+        </div>
+    </div>
+        <div class="snert">
+            <img class="snert-jpg" src="image/snert.jpg" alt="snert-jpg">
+            <div class="snert-description">
+                <h2>Snert</h2>
+                <p>Pea soup, often known as split pea soup, is a common soup made using dried peas, including the split pea. It is present in many civilizations' cuisines, however with some variances. Depending on the local variety of peas used, it is typically either greyish-green or yellow in colour; all are cultivars of Pisum sativum.</p>
+            </div>
+            <img class="moeders" src="image/moeders.jpg" alt="moders.jpg">
+            <h3 class="snert-restaurant-title">-----Moeders-----</h3>
+            <table class='snert-restaurant-info'>
+              <tr>
+                <td class='table-title'>Phone</td>
+                <td class='table-title'>Address</td>
+                <td class='table-title'>Mail</td>
+              </tr>
+              <tr>
+                <td>+31-020-6267957</td>
+                <td>Rozengracht 251 1016 SX Amsterdam </td>
+                <td>info@moeders.com</td>
+              </tr>
+            </table>
+        </div>
+        <div class="poffertjes">
+            <img class='poffertjes1' src="image/poffertjes1.jpg" alt="poffertjes-jpg">
+            <img class='poffertjes2' src="image/poffertjes2.jpg" alt="poffertjes-jpg">
+            <img class='poffertjes3' src="image/poffertjes3.jpg" alt="poffertjes-jpg">
+            <div class="poffertjes-description">
+                <h2>Poffertjes</h2>
+                <p>Poffertjes are a traditional Dutch batter treat. Resembling small, fluffy pancakes, they are made with yeast and buckwheat flour. Typically, poffertjes are a sweet treat, served with powdered sugar and butter, and sometimes syrup or advocaat.</p>
+            </div>
+            <div class="poffertjes-history">
+                <h3>History</h3>
+                <p>Poffertjes are a Catholic tradition-based food. Sacremental hosts were employed during the communion ritual in the churches in the southern Netherlands. The brothers started experimenting with various recipes because the host was so dry. The poffertjes that are familiar to us today are a result of these culinary experimentation.</p>
+            </div>
+            <div class="poffertjes-restaurant1">
+                <table class="line">
+                    <tr>
+                        <th><a class='poffertjes-restaurant-name' href="https://thepancakeclub.nl/" target="_blank">The Pancake Club Leidsebosje 5</a></th>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class='poffertjes-restaurant-description'>Found in the Leidsebosje since 1993.Formerly poffertjes stall "the four pillars"since 2020 permanently with a fixed kiosk. with a unique terrace in this part of Amsterdam</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="poffertjes-restaurant2">
+                <table class="line">
+                    <tr>
+                        <th><a class='poffertjes-restaurant-name' href='https://www.tasteatlas.com/thepancakebakery' target="_blank">The Pancake Bakery</a></th>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class='poffertjes-restaurant-description'>Enjoy the world famous and tasty traditional Dutch delicacy in our unique historical venue situated on the Prinsengracht (Prince’s canal), at a stone’s throw of the Anne Frank House and the Westerkerk.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="jenever">
+            <h1>Jenever</h1>
+            <img class='jenever-pic' src="image/jenever.jpg" alt="jenever-jpg">
+            <img class="jenever1-pic" src="image/jenever1.jpg" alt="jenever-jpg">
+            <p class="jenever-description">Genever is a clear, botanically rich, malted grain-based spirit that can only be made in Holland or Belgium.</p>
+            <p class="jenever-description">It is a blend of two or more distillates: first, a whiskey-like triple distillate made of corn, wheat, and rye (so-called malt wine). </p>
+            <p class="jenever-description">Second, a juniper-infused distillate. A possible third part can consist of malt wine re-distilled together with different botanicals.</p>
+            <h1>House of Bols Cocktail & Genever Experience</h1>
+            <img src='image/genever-place.jpg' alt=bar-pic>
+            <p class='jenever-restaurant-description'>At Bols, the first cocktail brand in the world, you can sample the best drinks and see how spirits are made. Take part in sensory-stimulating cocktail events to fully immerse yourself in the culture.</p>
+            <table class='jenever-restaurant-info'>
+              <tr>
+                <td class='table-title'>Phone</td>
+                <td class='table-title'>Address</td>
+                <td class='table-title'>Mail</td>
+              </tr>
+              <tr>
+                <td>+3120 570 8575</td>
+                <td>Paulus Potterstraat 12 14 16, 1071 CZ Amsterdam, Netherlands</td>
+                <td>info@bolscontact.com</td>
+              </tr>
+            </table>
+        </div>
+    </div>

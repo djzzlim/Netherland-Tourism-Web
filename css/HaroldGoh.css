@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+  }
+
+  body {
+    background-color: #CFD2CF;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: 'Bungee Spice';
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .top-bar ul {
+    list-style-type: none;
+    position: relative;
+    height: 690px;
+    background-color: #B7C4CF;
+    background-image: url(https://www.hdwallpapers.in/download/artistic_landscape_mountains_trees_sunset_purple_sky_background_minimalist_hd_minimalism-HD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .name {
+    color: black;
+    font-size: 60px;
+    font-family: 'Bungee Spice';
+    margin-bottom: 5px;
+  }
+
+  .profile {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  .student {
+    color: white;
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: 'Bree Serif';
+  }
+
+  .low-bar {
+    position: sticky;
+    top: 0;
+    padding: 0;
+    background-color: black;
+    list-style-type: none;
+    z-index: 1;
+  }
+
+  .low-bar li {
+    color: #B7C4CF;
+    display: inline-block;
+  }
+
+  .low-bar img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .low-bar table {
+    margin-left: 20px;
+  }
+
+  .about-me {
+    background-color: #B7C4CF;
+    position: sticky;
+    top: 60px;
+    border-style: solid;
+    border-color: #B7C4CF;
+    text-align: center;
+    color: black;
+    z-index: 1;
+    font-family: 'Bungee Spice';
+  }
+
+  .HandI img {
+    width: 150px;
+  }
+
+  .HandI {
+    background-color: #EEE3CB;
+    margin: 30px 0 0px;
+  }
+
+  .educational-background {
+    background-color: #CFD2CF;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .contact {
+    background-color: #F1F1F1;
+  }
+
+  hr {
+    border-style: solid;
+    background-color: black;
+  }
+
+  .elementary-school {
+    border-style: solid;
+    width: 300px;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 10px;
+  }
+
+  .college {
+    border-style: solid;
+    width: 300px;
+    margin-left: 70%;
+    margin-top: 90px;
+    position: absolute;
+  }
+
+  .secondary-school {
+    border-style: solid;
+    width: 300px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+  }
+
+  .back-button {
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    background-color: #B7C4CF;
+    font-family: 'Bungee spice';
+    border-color: orange;
+  }
+
+  .back-button:hover {
+    opacity: 0.9;
+    transition-delay: 0.1s;
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .timeline {
+    width: 90%;
+    border-style: solid;
+    margin: 369px 0 0 55px;
+    background-color: black;
+    position: absolute;
+    height: 2px;
+  }

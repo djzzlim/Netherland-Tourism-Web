@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+title {
+  display: none;
+}
+
+.navigation-bar {
+  position: sticky;
+  background-color: #FFF5E4;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  top: 0px;
+  z-index: 4;
+  height: 120px;
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 30px 7px;
+  margin: 5px;
+  text-decoration: none;
+  color: #9c2a2c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4vh !important;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  border-bottom-style: solid;
+}

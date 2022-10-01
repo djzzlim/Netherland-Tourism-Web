@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #E1FFEE;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  h1,
+  h3 {
+    color: #7FBCD2;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 8vh;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  p {
+    font-size: 2.5vh;
+    font-family: 'Capriola', sans-serif;
+  }
+
+  td {
+    font-size:20px;
+  }
+
+  .profile {
+    height: 100vh;
+  }
+
+  .profile table {
+    width: 88%;
+  }
+
+  .profile p {
+    font-size: 20px;
+  }
+
+  .profile h1 {
+    display: inline;
+  }
+
+  .profile_pic {
+    border-radius: 80%;
+  }
+
+  .profile_pic:hover {
+    transform: scale(1.2);
+    transition: transform .2s;
+  }
+
+  img {
+    padding: 20px;
+    padding-left: 30%;
+    padding-right: 10px;
+    padding-top: 25%;
+  }
+
+  th {
+    text-align: center;
+  }
+
+  .article1 {
+    padding-left: 15%;
+  }
+
+  .article2 {
+    padding-left: 15%;
+  }
+
+  .article3 {
+    padding-left: 20%;
+  }
+
+  .hobby {
+    width: 80%;
+  }
+
+  .hobby p {
+    line-height: 200%;
+  }
+
+  .hobby img {
+    padding: 10px;
+    margin-left: 20%;
+  }
+
+  .hobbies_background {
+    background-color: #FFF6BF;
+    margin: 0;
+    padding: 0;
+    padding-bottom:100px;
+  }
+
+  .education_background {
+    background-color: #FFEBAD;
+    padding-bottom:100px;
+  }
+
+  .bio {
+    padding-left: 20%;
+    padding-top: 20%;
+  }
+
+  .bio p {
+    font-family: 'Arvo', serif !important;
+  }
+
+  .bio h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 17vh;
+  }
+
+  ul,
+  li {
+    padding-left: 15px;
+  }
+
+  .school {
+    font-size: 20px;
+  }
+
+  .school thead { 
+    font-size: 20px;
+  }
+
+  .contactinfo {
+    text-align: center;
+    padding: 0;
+    padding-right: 25%;
+    margin: 0;
+  }
+
+  .contactinfo strong {
+    font-size: 25px;
+  }
+
+  .social {
+    display: inline;
+  }
+
+  .social table {
+    width: 50%;
+  }
+
+  .social img {
+    padding: 0;
+    margin: 0;
+    filter: saturate(500%);
+    filter: contrast(150%);
+    filter: drop-shadow(150);
+    border-radius: 20px;
+  }
+
+  .social img:hover {
+    transform: scale(1.2);
+    transition: transform .2s;
+  }
+
+  .education {
+    padding: 0% 10% 5% 15%;
+  }
+
+  .education table {
+    width: 95%;
+  }
+
+  .primary_school {
+    width: 30%;
+  }
+
+  .secondary_school {
+    width: 45%;
+  }
+
+  .uni {
+    width: 30%;
+  }
+
+  button {
+    position: absolute;
+    border-radius: 25px;
+    border:1px solid transparent;
+    background-color: #DFD3C3;
+    top: 10px;
+    left: 30px;
+    z-index: 3;
+    margin: 10px;
+    padding:10px;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+  }
+
+  button:hover {
+    transform: scale(1.2);
+    transition: transform .2s;
+    background-color: #F8EDE3;
+  }
+
+  .back-to-top img {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+  }

@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: #CFD2CF;
+    font-family: monospace;
+  }
+
+  .top-bar {
+    background-color: #FFFAE7;
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+  }
+
+  .Name {
+    margin: 0px;
+    font-family: cursive;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 40px;
+  }
+
+  .social-media {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .social-media:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
+
+  .top-container {
+    padding: 50px;
+  }
+
+  h1 {
+    font-size: 70px;
+    font-family: Gabriola;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: cursive;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .decoration1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: -1;
+  }
+
+  .decoration2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    z-index: -1;
+  }
+
+  .profile-picture {
+    border-radius: 100%;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .Hobbies {
+    text-align: left;
+  }
+
+  .badminton-image {
+    height: 200px;
+    width: 200px;
+    float: left;
+  }
+
+  .guitar-image {
+    height: 200px;
+    width: 200px;
+    float: right;
+  }
+
+  .film-watching-image {
+    height: 200px;
+    width: 200px;
+    float: left;
+  }
+
+  .hobby1 {
+    line-break: 2;
+    padding: 50px;
+  }
+
+  .hobby2 {
+    line-break: 2;
+    padding: 50px;
+  }
+
+  .hobby3 {
+    line-break: 2;
+    padding: 50px;
+  }
+
+  .education {
+    padding: 50px;
+  }
+
+  .primary-school {
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    border-style: ridge;
+    border-width: 10px;
+    width: 25%;
+    z-index: -1;
+
+  }
+
+  .secondary-school {
+    display: inline-block;
+    border-style: ridge;
+    border-width: 10px;
+    width: 25%;
+    z-index: 1;
+  }
+
+
+  .college {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    border-style: ridge;
+    border-width: 10px;
+    width: 25%;
+    z-index: -1;
+  }
+
+  .pushpin {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    right: 155px;
+    bottom: 30px;
+    z-index: -1;
+  }
+
+  p {
+    line-height: 2;
+    font-size: 20px;
+  }
+
+  .result {
+    font-size: 20px;
+  }
+
+  .year {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  button{
+    width:100px;
+    height:50px;
+    border-radius:10%;
+    background-color: #CFD2CF;
+    margin-bottom:50px;
+    box-shadow: 5px 5px black;
+    font-family:cursive;
+  }
+
+  button:hover{
+    transform: scale(1.2);
+    transition:0.2s;
+    background-color:#FFFAE7;
+  }
